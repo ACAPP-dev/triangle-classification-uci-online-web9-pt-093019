@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind(side_a, side_b, side_c)
-    
+
     if side_a == side_b || side_b == side_c || side_a == side_c
       :isosceles
     elsif side_a == side_b && side_b == side_c
@@ -16,9 +16,9 @@ class Triangle
     #elsif side_a != sid
       #else
     end
-      
+
   end
-  
+
 
 
 end
