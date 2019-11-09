@@ -23,8 +23,6 @@ class Triangle
         #elsif side_a != sid
       #else
       end
-    else
-      #error
       #binding.pry
     end
 
