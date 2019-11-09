@@ -12,8 +12,9 @@ class Triangle
     #binding.pry
     if side_a <= 0 || side_b <= 0 || side_c <=0
       #=>error
-    if side_a + side_b >= side_c || side_b + side_c >= side_a || side_a + side_c >= side_b
-
+    elsif side_a + side_b <= side_c || side_b + side_c <= side_a || side_a + side_c <= side_b
+      #=>error
+    else
       if side_a == side_b && side_b == side_c && side_a == side_c
         :equilateral
       elsif side_a == side_b || side_b == side_c || side_a == side_c
