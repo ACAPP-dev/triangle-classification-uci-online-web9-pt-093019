@@ -1,3 +1,4 @@
+require 'pry'
 class Triangle
   # write code here
   attr_accessor :side_a, :side_b, :side_c
@@ -19,6 +20,7 @@ class Triangle
       end
     else
       #error
+      binding.pry
     end
 
   end
