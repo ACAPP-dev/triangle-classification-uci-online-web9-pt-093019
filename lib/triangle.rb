@@ -19,9 +19,8 @@ class Triangle
         :equilateral
       elsif side_a == side_b || side_b == side_c || side_a == side_c
         :isosceles
-
-        #elsif side_a != sid
-      #else
+      else
+        :scalene
       end
       #binding.pry
     end
