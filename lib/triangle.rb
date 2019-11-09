@@ -6,5 +6,5 @@ class Triangle
 
   end
 
-  
+
 end
